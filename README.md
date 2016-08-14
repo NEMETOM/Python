@@ -24,6 +24,9 @@ git commit -m "add message"
 # Add remote node
 git remote add origin git@github.com:NEMETOM/Python.git
 
+# Show git remote node
+git remote show origin
+
 # Move Files
 git push -u origin master
 
