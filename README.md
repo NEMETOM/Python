@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -66,3 +67,6 @@ nemetht:~/workspace/python (master) $
 nemetht:~/workspace/python (master) $ git remote -v
 origin  git@github.com:NEMETOM/Python.git (fetch)
 origin  git@github.com:NEMETOM/Python.git (push)
+=======
+# Python
+>>>>>>> 6d3d479c1e6b7540d88e3e853e711bd5e95115a3
