@@ -57,3 +57,12 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide.
 
 # Git Repository
 - Where all our snapshots are stored
+- 
+
+# Move file from c9 to GitHub
+
+nemetht:~/workspace/python (master) $ git remote add origin git@github.com:NEMETOM/Python.git
+nemetht:~/workspace/python (master) $ 
+nemetht:~/workspace/python (master) $ git remote -v
+origin  git@github.com:NEMETOM/Python.git (fetch)
+origin  git@github.com:NEMETOM/Python.git (push)
