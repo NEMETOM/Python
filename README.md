@@ -55,18 +55,28 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide.
 
 # Staging Area
 - Files and directories that we explicitly add to the staging area
+- Add Files:
+git add <file name>
+
+- Check status
+git status
+
 
 # Git Repository
 - Where all our snapshots are stored
-- 
+- Commit files:
+git commit -m "add message"
 
+# ==============================
 # Move file from c9 to GitHub
+# ==============================
 
-nemetht:~/workspace/python (master) $ git remote add origin git@github.com:NEMETOM/Python.git
-nemetht:~/workspace/python (master) $ 
-nemetht:~/workspace/python (master) $ git remote -v
-origin  git@github.com:NEMETOM/Python.git (fetch)
-origin  git@github.com:NEMETOM/Python.git (push)
-=======
-# Python
->>>>>>> 6d3d479c1e6b7540d88e3e853e711bd5e95115a3
+# Add remote node
+git remote add origin git@github.com:NEMETOM/Python.git
+
+# Move Files
+git push -u origin master
+
+# See status
+git remote -v
+
